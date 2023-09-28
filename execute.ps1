@@ -5,7 +5,7 @@ $zipUrl = "https://filetransfer.io/data-package/eeML0ZKe/download"
 $destinationPath = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), "TerrorNoTrono")
 
 # Faz o download do arquivo ZIP
-Invoke-WebRequest -Uri $zipUrl -OutFile "$destinationPath\arquivo.zip"
+Invoke-WebRequest -Uri $zipUrl -OutFile "$destinationPath\Terror no trono.zip"
 
 # Extrai o arquivo ZIP
 Expand-Archive -Path "$destinationPath\arquivo.zip" -DestinationPath $destinationPath
