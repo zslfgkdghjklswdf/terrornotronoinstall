@@ -8,7 +8,7 @@ $destinationPath = [System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), "T
 Invoke-WebRequest -Uri $zipUrl -OutFile "$destinationPath\Terror no trono.zip"
 
 # Extrai o arquivo ZIP
-Expand-Archive -Path "$destinationPath\arquivo.zip" -DestinationPath $destinationPath
+Expand-Archive -Path "$destinationPath\Terror no trono.zip" -DestinationPath $destinationPath
 
 # Define o caminho para o executável
 $executablePath = [System.IO.Path]::Combine($destinationPath, "Terror no trono", "Terror no trono.exe")
